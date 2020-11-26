@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js -p 0:0:0:0"
+    "start": "node index.js -p $PORT"
   },
   "keywords": [],
   "author": "",
