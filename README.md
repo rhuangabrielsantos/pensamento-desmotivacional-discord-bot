@@ -2,7 +2,12 @@
 
 ## Como desmotivar meu servidor?
 
-É muito simples, clique [AQUI](https://discord.com/oauth2/authorize?client_id=781495002106167326&permissions=202816&scope=bot)
+É muito simples, clique [aqui](https://discord.com/oauth2/authorize?client_id=781495002106167326&permissions=202816&scope=bot) para adicionar o bot ao seu servidor!
+
+## Lista de comandos
+
+- **!pensamento** 
+  - Este comando te responde um pensamento desmotivacional ideal para o dia a dia!
 
 ## Como contribuir?
 
@@ -14,4 +19,4 @@ Adicione um pensamento desmotivacional no arquivo **thoughts.json** com o format
   },
 ```
 
-Lembre-se, nunca é tarde para desistir!
+Novos comandos são bem vindos! Mas lembre-se de adicionar a descrição no readme!
