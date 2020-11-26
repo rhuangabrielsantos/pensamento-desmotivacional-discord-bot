@@ -1,6 +1,6 @@
 ![pensamento-desmotivacional-discord-bot](https://socialify.git.ci/rhuangabrielsantos/pensamento-desmotivacional-discord-bot/image?description=1&descriptionEditable=Um%20bot%20para%20desmotivar%20seu%20servidor!&font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Como desmotivar meu servidor?
@@ -34,6 +34,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/rhuangabrielsantos"><img src="https://avatars3.githubusercontent.com/u/50742592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rhuan Santos</b></sub></a><br /><a href="https://github.com/rhuangabrielsantos/pensamento-desmotivacional/commits?author=rhuangabrielsantos" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/anaclaudialimacosta"><img src="https://avatars1.githubusercontent.com/u/29721250?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ana Claudia Lima de A. I. Costa</b></sub></a><br /><a href="#content-anaclaudialimacosta" title="Content">🖋</a></td>
   </tr>
 </table>
 
