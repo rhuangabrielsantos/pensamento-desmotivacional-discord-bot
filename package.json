@@ -13,5 +13,8 @@
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.19.0"
   }
 }

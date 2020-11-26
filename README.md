@@ -24,9 +24,7 @@ Adicione um pensamento desmotivacional no arquivo **thoughts.json** com o format
 
 Novos comandos são bem vindos! Mas lembre-se de adicionar a descrição no readme!
 
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+## Contribuidores ✨
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -34,7 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/rhuangabrielsantos"><img src="https://avatars3.githubusercontent.com/u/50742592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rhuan Santos</b></sub></a><br /><a href="https://github.com/rhuangabrielsantos/pensamento-desmotivacional/commits?author=rhuangabrielsantos" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/anaclaudialimacosta"><img src="https://avatars1.githubusercontent.com/u/29721250?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ana Claudia Lima de A. I. Costa</b></sub></a><br /><a href="#content-anaclaudialimacosta" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/anaclaudialimacosta"><img src="https://avatars1.githubusercontent.com/u/29721250?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ana Claudia Lima de A. I. Costa</b></sub></a><br /><a href="#example-anaclaudialimacosta" title="Ideas">💡</a></td>
   </tr>
 </table>
 
@@ -42,5 +40,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
