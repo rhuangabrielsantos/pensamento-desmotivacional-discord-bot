@@ -1,4 +1,5 @@
-![pensamento-desmotivacional-discord-bot](https://socialify.git.ci/rhuangabrielsantos/pensamento-desmotivacional-discord-bot/image?description=1&descriptionEditable=Um%20bot%20para%20desmotivar%20seu%20servidor!&font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
+![pensamento-desmotivacional-discord-bot](https://socialify.git.ci/rhuangabrielsantos/pensamento-desmotivacional-discord-boT/image?description=1&font=KoHo&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
