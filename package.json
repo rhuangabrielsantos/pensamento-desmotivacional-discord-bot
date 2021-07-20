@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +12,11 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
   },
   "devDependencies": {
-    "all-contributors-cli": "^6.19.0"
+    "all-contributors-cli": "^6.19.0",
+    "nodemon": "^2.0.12"
   }
 }
