@@ -2,49 +2,40 @@ require("dotenv").config();
 require("./config/server");
 require("./config/database");
 
+const fs = require("fs");
+var path = require("path");
 const Discord = require("discord.js");
-const ThoughtsRepository = require("./Repositories/ThoughtsRepository");
-
-const {
-  getCommandByDiscordMessage,
-  generateEmbedMessage,
-} = require("./helper");
 
 const client = new Discord.Client();
+client.commands = new Discord.Collection();
 
-client.on("message", async discordMessage => {
-  if (discordMessage.author.not) return;
-  if (!discordMessage.content.startsWith(process.env.PREFIX)) return;
+const commandPath = path.join(__dirname, "commands");
+const commandFiles = fs
+  .readdirSync(commandPath)
+  .filter(file => file.endsWith(".js"));
 
-  const { command, message } = getCommandByDiscordMessage(discordMessage);
+for (const file of commandFiles) {
+  const command = require(`./commands/${file}`);
+  client.commands.set(command.name, command);
+}
 
-  if (command == "add") {
-    await ThoughtsRepository.addJoke({
-      message: message,
-      author: discordMessage.author.username,
-    });
+client.on("message", message => {
+  if (!message.content.startsWith(process.env.PREFIX) || message.author.bot)
+    return;
 
-    const embedMessage = generateEmbedMessage({
-      title: "Pensamento adicionado",
-      message:
-        `O usuário **${discordMessage.author.username}** adicionou a mensagem abaixo para aprovação: \n\n` +
-        `- *${message}*`,
-    });
+  const args = message.content
+    .slice(process.env.PREFIX.length)
+    .trim()
+    .split(/ +/);
+  const command = args.shift().toLowerCase();
 
-    discordMessage.reply(embedMessage);
-  }
+  if (!client.commands.has(command)) return;
 
-  if (!command) {
-    const randomThought = await ThoughtsRepository.getRandomThought();
-
-    const year = new Date(randomThought.created_at).getFullYear();
-
-    const embedMessage = generateEmbedMessage({
-      title: randomThought.message,
-      message: `Autor: **${randomThought.author}**, ${year}`,
-    });
-
-    discordMessage.reply(embedMessage);
+  try {
+    client.commands.get(command).execute(message, args);
+  } catch (error) {
+    console.error(error);
+    message.reply("there was an error trying to execute that command!");
   }
 });
 
