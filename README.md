@@ -12,7 +12,7 @@
 
 ## Lista de comandos
 
-- **!p**
+- **!p pensamento**
 
   - Este comando sorteia um pensamento desmotivacional ideal para o dia a dia!
 
